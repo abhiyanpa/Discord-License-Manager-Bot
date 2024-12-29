@@ -7,10 +7,8 @@ An enterprise-grade Discord bot for automated software license management integr
 
 ## 🚀 Features
 - Automated license generation & verification
-- Real-time license status tracking
 - Usage analytics and reporting
 - Secure API integration
-- Multi-server support
 - Comprehensive logging
 
 ## 📋 Requirements
@@ -39,12 +37,12 @@ edit .env with your credentials
 
 ### Create a LicenseGate Account:
 1. Visit [LicenseGate.io](https://app.licensegate.io/licenses)
-2. Sign up and create a new product.
+2. Sign up.
 3. Generate an API key for integration.
 
 ### 🚀 Usage
 - **Start the bot**:  
-  Run the bot with `python bot.py`
+  Run the bot with `python main.py`
 
 ### Commands
 - `/generate`: Create a new license

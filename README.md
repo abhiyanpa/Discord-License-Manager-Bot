@@ -1,32 +1,29 @@
-# Discord License Manager 🤖
+# Discord License Manager Bot 🤖
+> Official Discord bot integration with LicenseGate.io - In collaboration with LicenseGate Founder
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Discord.py](https://img.shields.io/badge/discord-py-blue.svg)](https://discordpy.readthedocs.io/en/stable/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![LicenseGate](https://img.shields.io/badge/powered%20by-LicenseGate-orange.svg)](https://licensegate.io)
 
-Enterprise-grade Discord bot for automated software license management integrated with LicenseGate.io.
+Enterprise-grade Discord bot for automated software license management, officially integrated with LicenseGate.io platform.
 
-## 🚀 Features
-- Automated license generation & verification
-- Real-time license status tracking
-- Usage analytics and reporting
-- Secure API integration
+## 🌟 Key Features
+- Automated license generation
+- Real-time verification
+- Usage analytics
 - Multi-server support
+- Secure API integration
 - Comprehensive logging
 
-## 📋 Requirements
+## 📋 Prerequisites
 - Python 3.8+
-- Discord.py
-- LicenseGate.io API key
+- LicenseGate.io account
 - Discord Bot Token
+- Windows/Linux server
 
-## 🛠️ Installation
+## 🔧 Installation
+
+1. Clone repository
 ```bash
-# Clone repository
-git clone https://github.com/abhiyanpa/discord-license-manager.git
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure environment
-edit .env with your credentials
+git clone https://github.com/abhiyanpa/Discord-License-Manager-Bot.git
+cd discord-license-manager

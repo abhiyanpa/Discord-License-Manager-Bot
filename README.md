@@ -1,29 +1,42 @@
-# Discord License Manager Bot 🤖
-> Official Discord bot integration with LicenseGate.io - In collaboration with LicenseGate Founder
+1. **Create Virtual Environment** (optional but recommended)  
+2. **Install Dependencies**: Run `pip install -r requirements.txt`  
+3. **Configure Environment**: Add your credentials to `.env` file.
 
-[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Discord.py](https://img.shields.io/badge/discord-py-blue.svg)](https://discordpy.readthedocs.io/en/stable/)
-[![LicenseGate](https://img.shields.io/badge/powered%20by-LicenseGate-orange.svg)](https://licensegate.io)
+## ⚙️ Configuration
 
-Enterprise-grade Discord bot for automated software license management, officially integrated with LicenseGate.io platform.
+### Create a LicenseGate Account:
+1. Visit [LicenseGate.io](https://app.licensegate.io/licenses)
+2. Sign up and create a new product.
+3. Generate an API key for integration.
 
-## 🌟 Key Features
-- Automated license generation
-- Real-time verification
-- Usage analytics
-- Multi-server support
-- Secure API integration
-- Comprehensive logging
+### 🚀 Usage
+- **Start the bot**:  
+  Run the bot with `python bot.py`
 
-## 📋 Prerequisites
-- Python 3.8+
-- LicenseGate.io account
-- Discord Bot Token
-- Windows/Linux server
+### Commands
+- `/generate`: Create a new license
 
-## 🔧 Installation
+## 📁 Project Structure
+- **🔒 Security**: API keys are securely stored in `.env`
+- **Permission-based Commands**: Control who can execute commands
+- **Rate Limiting**: Prevents abuse of the bot's features
+- **Secure API Communication**: Ensures data security during API interactions
 
-1. Clone repository
-```bash
-git clone https://github.com/abhiyanpa/Discord-License-Manager-Bot.git
-cd discord-license-manager
+## 🤝 Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a pull request
+
+## 📝 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## 🌟 Credits
+- Built by Abhiyan P A
+- In collaboration with LicenseGate.io
+- Powered by Discord.py
+
+## 💬 Support
+- Join our Discord: [[Link]](https://discord.gg/hdXRVacpgf)
+- Create an issue: [[GitHub Issues]](https://github.com/abhiyanpa/Discord-License-Manager-Bot/issues)

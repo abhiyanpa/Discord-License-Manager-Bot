@@ -1,4 +1,4 @@
-# Discord License Manager 🤖  
+  # Discord License Manager 🤖  
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)  
 [![Discord.py](https://img.shields.io/badge/discord-py-blue.svg)](https://discordpy.readthedocs.io/en/stable/)  
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)  
